@@ -1,0 +1,78 @@
+$black:   rgb(0, 0, 0);
+$white:   rgb(255, 255, 255);
+
+$brand-1: rgb(242, 188, 88);
+$brand-2: rgb(29, 29, 28);
+
+$sec-1:   rgb(237, 178, 91);
+$sec-2:   rgb(187, 105, 11);
+
+$text-1:  rgb(40, 40, 40);
+$text-2:  rgb(114, 114, 114);
+$text-3:  rgb(174, 174, 174);
+$text-4:  rgb(255, 255, 255);
+
+$gray-1:  rgb(244, 244, 244);
+$gray-2:  rgb(238, 238, 238);
+$gray-3:  rgb(232, 232, 232);
+$gray-4:  rgb(226, 226, 226);
+
+$cubic:     cubic-bezier( 0.17, 0.67, 0.83, 0.67 );
+$animation: 0.2s $cubic;
+
+body {
+  color: $text-1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  @media (max-width: 768px) {
+    padding: 0 6%;
+  }
+}
+
+.section {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0;
+}
+.header {
+  margin-top: 3rem;
+  img {
+    display: block;
+    max-width: 16rem;
+    margin: 1rem auto;
+  }
+  p {
+    text-align: center;
+    margin: 0.2rem auto;
+    max-width: 80%;
+  }
+  a {
+    color: $text-1;
+    font-weight: bold;
+    text-decoration: none;
+    transition: $animation;
+    &:hover {
+      color: $brand-1;
+    }
+  }
+}
+.links {
+  margin-top: 2rem;
+  a {
+    display: block;
+    color: $text-4;
+    background-color: $brand-1;
+    border: 2px solid $brand-1;
+    margin: 1rem 0;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: $animation;
+    &:hover {
+      color: $brand-1;
+      background-color: $white;
+    }
+  }
+}
