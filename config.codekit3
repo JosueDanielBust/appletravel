@@ -9,6 +9,39 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/assets/images/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 4257,
+		"oA": 0,
+		"oAP": "/assets/images/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 9584,
+		"oA": 0,
+		"oAP": "/assets/images/android-chrome-384x384.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3272,
+		"oA": 0,
+		"oAP": "/assets/images/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/images/apple-travel-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -18,6 +51,95 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/assets/images/background.png": {
+		"ft": 32768,
+		"iS": 1949364,
+		"oA": 0,
+		"oAP": "/assets/images/background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/images/browserconfig.xml",
+		"oF": 0
+		},
+	"/assets/images/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 577,
+		"oA": 0,
+		"oAP": "/assets/images/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 848,
+		"oA": 0,
+		"oAP": "/assets/images/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/images/favicon.ico",
+		"oF": 0
+		},
+	"/assets/images/favicon.png": {
+		"ft": 32768,
+		"iS": 7260,
+		"oA": 0,
+		"oAP": "/assets/images/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 3102,
+		"oA": 0,
+		"oAP": "/assets/images/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/images/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/images/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/images/site.webmanifest",
+		"oF": 0
 		},
 	"/assets/styles/main.css": {
 		"aP": 1,
@@ -67,7 +189,7 @@
 	"creationDate": 661112885.37703097,
 	"displayValue": "links",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_brown",
+	"iconImageName": "/assets/images/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

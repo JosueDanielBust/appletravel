@@ -21,11 +21,17 @@ $cubic:     cubic-bezier( 0.17, 0.67, 0.83, 0.67 );
 $animation: 0.2s $cubic;
 
 body {
+  background-color: $white;
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: $text-1;
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
+  min-height: 100vh;
   @media (max-width: 768px) {
     padding: 0 6%;
   }
@@ -37,11 +43,11 @@ body {
   padding: 0;
 }
 .header {
-  margin-top: 3rem;
+  padding-top: 4rem;
   img {
     display: block;
     max-width: 16rem;
-    margin: 1rem auto;
+    margin: 1rem auto 2rem;
   }
   p {
     text-align: center;
